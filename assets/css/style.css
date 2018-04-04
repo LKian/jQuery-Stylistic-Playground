@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; }
+body {
+	font-family: arial;
+	background: #ccc;  /* backup for old browsers */
+  background: -webkit-linear-gradient(left, #64b3f4, #c2e59c);
+  background: -o-linear-gradient(left, #64b3f4, #c2e59c);
+  background: linear-gradient(to right, #64b3f4, #c2e59c); }
+.samples {
+	display: flex;
+	flex-direction: column;
+  margin: 25px 0; }
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px 0 100px; }
+#magicalInput {
+	  padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+	  display: flex;
+	  width: 40%; 
+	  margin: auto; }
+.box {
+	width: calc(100% * (1/3)) ;
+	text-align: center;
+	min-height: 75px;
+	border: 1px solid #aec; }
+.title {
+	background-color: rgba(0,80,10,0.3); }
+.title, .code {
+  	padding: 10px 0; }
+
